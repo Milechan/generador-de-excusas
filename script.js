@@ -5,22 +5,22 @@ let when = ['before the class', 'when I was sleeping', 'while I was exercising',
 
 
 let itemWho = Math.floor(Math.random()*who.length)
-let WhoSelecter = who[itemWho]
+let whoSelecter = who[itemWho]
 
 
  let itemAction = Math.floor(Math.random()*action.length)
- let ActionSelecter = action[itemAction]
+ let actionSelecter = action[itemAction]
 
  let itemWhat = Math.floor(Math.random()*what.length)
- let WhatSelecter = what[itemWhat]
+ let whatSelecter = what[itemWhat]
 
  let itemWhen = Math.floor(Math.random()*when.length)
- let WhenSelecter = when[itemWhen]
+ let whenSelecter = when[itemWhen]
 
-console.log(WhoSelecter);
-console.log(ActionSelecter);
-console.log(WhatSelecter);
-console.log(WhenSelecter);
+console.log(whoSelecter);
+console.log(actionSelecter);
+console.log(whatSelecter);
+console.log(whenSelecter);
 
-let Nombre = document.getElementById('excuse')
-Nombre.innerHTML= WhoSelecter+" " + ActionSelecter+" " + WhatSelecter+ " " + WhenSelecter
+let html = document.getElementById('excuse')
+html.innerHTML= whoSelecter+" " + actionSelecter+" " + whatSelecter+ " " + whenSelecter
